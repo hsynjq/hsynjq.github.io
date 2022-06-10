@@ -55,8 +55,8 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
+  font-family: "STKaiti", sans-serif;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.9;
   color: #999;
@@ -6713,7 +6713,7 @@ article h2.article-title {
 
 article p.article-meta {
   color: #ccc;
-  font-size: 0.8rem; }
+  font-size: 1rem; }
 
 /**
 Sidebar
