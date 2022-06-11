@@ -53,16 +53,11 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-@font-face {
-	font-family:"hywh85w";
-	src:url(../font/hywh85w.ttf);
-}
-
 body {
   margin: 0;
-  font-family: "hywh85w", sans-serif;
+  font-family: "STKaiti","Source Sans Pro", sans-serif;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.9;
   color: #999;
   text-align: left;
@@ -6505,7 +6500,8 @@ main {
   margin-left: 0; }
 
 a, .page-link {
-  color: #80B763, 10%;}
+  color: #80B763, 10%;
+  font-weight: bold; }
   a:hover, a:focus, a:active, .page-link:hover, .page-link:focus, .page-link:active {
     color: #669e49; }
 
@@ -6521,7 +6517,8 @@ fieldset {
 fieldset legend {
   width: auto;
   padding-right: 0.5rem;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  font-weight: bold; }
 
 table th {
   background-color: #80B763;
@@ -6537,7 +6534,7 @@ blockquote {
   margin-bottom: 1rem; }
 
 .btn {
-  }
+  font-weight: bold; }
 
 .btn-secondary, .badge-secondary,
 .btn-primary, .badge-primary {
@@ -6547,7 +6544,8 @@ blockquote {
   color: #fff; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #333; }
+  color: #333;
+  font-weight: bold; }
 
 h3, .h3 {
   color: #9cc786; }
